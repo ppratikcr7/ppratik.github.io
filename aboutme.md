@@ -1,16 +1,32 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Reflections on my career path and development as a data scientist
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Pratik Prajapati, who is on a voyage of self-discovery! I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I am tech savy
+- I am highly motivated
+- I'm extremely interested in learning new tech stacks
+- I am an adventure loving person
+- Freelancer by hobby
+-  ♥'s Python
+- AI, ML, Data Science, Deep Learning, Capsule Network, Recommender System, Graphic Designer.
+- I depict my individual ideas and inferences that I draw from my life experiences.
 
-What else do you need?
+As Mark Twain once said “If it's your job to eat a frog, it's best to do it first thing in the morning. And if it's your job to eat two frogs, it's best to eat the biggest one first.”
 
-### my history
+Two roads diverged in a wood, and I  took the one less traveled by, And that has made all the difference. -Robert Frost
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### My History
+
+## Currently: Data Scientist
+
+I am a part of data science team at Playpower Labs. We work with various kinds of educational companies, ranging from textbook publishers to digital learning companies. In most of the projects, we work with learner data and build tools and services empower product teams, students, and educators.
+
+## Previously: Post Graduate from DA-IICT
+
+Before you make a guess, I am not from IIT and neither from NIT! I am proud to be a DA-IICTian by heart. This place helped me immensely to grow and take a supercalyfragilisticexpialidocious career path(Machine Intelligence).
+
+
