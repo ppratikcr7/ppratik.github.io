@@ -22,8 +22,14 @@ description: Pratik's personal web page
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - OCR: "http://deanattali.com/beautiful-jekyll/"
+    - Printed OCR: "http://deanattali.com/beautiful-jekyll/"
     - 3D Pose Estimation: ""
+    - SECCURE Log Chain: "https://github.com/ppratikcr7/SeccureEncDecHashCuckooFilter"
+    - Stock Market Price Predictor and Correlator: ""
+    - Twitter Sentiment Analysis: "https://github.com/ppratikcr7/TweetSentimentAnalysis"
+    - Audio Based Automatic Navigator: ""
+    - Heirarchical Inverse RL based Toycar Obstacle Avoider: ""
+    - HIRL visualizer: ""
   Author's home: "http://ppratikcr7.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
