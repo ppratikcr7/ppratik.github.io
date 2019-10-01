@@ -20,15 +20,15 @@ description: Pratik's personal web page
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  About Me: "I am a Data Scientist at Playpower Labs and a freelancer by hobby"
+  Projects:
+    - OCR: "http://deanattali.com/beautiful-jekyll/"
+    - 3D Pose Estimation: ""
+  Author's home: "http://ppratikcr7.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/pratik.png"
+avatar: "/img/mypic.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
