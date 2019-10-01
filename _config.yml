@@ -20,7 +20,7 @@ description: Pratik's personal web page
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "I am a Data Scientist at Playpower Labs and a freelancer by hobby"
+  About Me: "aboutme"
   Projects:
     - OCR: "http://deanattali.com/beautiful-jekyll/"
     - 3D Pose Estimation: ""
