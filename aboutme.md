@@ -10,7 +10,6 @@ My name is Pratik Prajapati, who is on a voyage of self-discovery! I have the fo
 - I am highly motivated
 - I'm extremely interested in learning new tech stacks
 - I am an adventure loving person
-- Freelancer by hobby
 -  ♥'s Python
 - AI, ML, Data Science, Deep Learning, Capsule Network, Recommender System, Graphic Designer.
 - I depict my individual ideas and inferences that I draw from my life experiences.
