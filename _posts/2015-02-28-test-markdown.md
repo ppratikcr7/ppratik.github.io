@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My ML journey:
-subtitle: Some important key points observed by me being an ML enthsiast
+title: My ML journey
+subtitle: Some important key points observed by me being an ML enthusiast
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
