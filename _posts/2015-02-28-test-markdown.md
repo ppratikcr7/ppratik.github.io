@@ -1,78 +1,37 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: My ML journey:
+subtitle: Some important key points observed by me being an ML enthsiast
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Some models use images with values ranging from 0 to 1. Others from -1 to +1. Others use the "caffe" style, that is not normalized, but is centered.
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
-
-Here's a code chunk:
+## This loads an image and resizes the image to (224, 224):
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+ img = image.load_img(img_path, target_size=(224, 224))
 ~~~
 
-And here is the same code with syntax highlighting:
+The img_to_array() function adds channels: x.shape = (224, 224, 3) for RGB and (224, 224, 1) for gray image
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+~~~
+ x = image.img_to_array(img) 
+~~~
 
-And here is the same code yet again but with line numbers:
+expand_dims() is used to add the number of images: x.shape = (1, 224, 224, 3):
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+~~~
+x = np.expand_dims(x, axis=0)
+~~~
 
-## Boxes
-You can add notification, warning and error boxes like this:
+preprocess_input subtracts the mean RGB channels of the imagenet dataset. This is because the model you are using has been trained on a different dataset: x.shape is still (1, 224, 224, 3)
 
-### Notification
+~~~
+x = preprocess_input(x)
+~~~
 
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+If you add x to an array images, at the end of the loop, you need to add images = np.vstack(images) so that you get (n, 224, 224, 3) as the dim of images where n is the number of images processed
